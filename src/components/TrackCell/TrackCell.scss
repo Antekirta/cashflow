@@ -1,0 +1,15 @@
+.track-cell {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #222;
+  font-size: 17px;
+  color: #fff;
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.2s opacity;
+    opacity: 0.6;
+  }
+}
